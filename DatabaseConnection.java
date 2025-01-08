@@ -6,16 +6,16 @@ package tubesss;
 
 /**
  *
- * @author aulia
+ * @author aulia marwah kandari
  */
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class DatabaseConnection { // Ganti nama kelas untuk menghindari konflik
-    private static final String URL = "jdbc:mysql://localhost:3306/restoran"; // Ganti dengan nama database Anda
-    private static final String USER = "root"; // Ganti dengan username MySQL Anda
-    private static final String PASSWORD = "root"; // Ganti dengan password MySQL Anda
+public class DatabaseConnection { 
+    private static final String URL = "jdbc:mysql://localhost:3306/restoran"; 
+    private static final String USER = "root"; 
+    private static final String PASSWORD = "root";
 
     public static Connection connect() {
         try {
